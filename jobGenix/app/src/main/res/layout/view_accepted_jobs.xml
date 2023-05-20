@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJtitleE"
+        android:textSize="30dp"
+        android:layout_marginStart="1dp"
+        android:text="job title: waiter"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtJdescE"
+        android:textSize="20dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:text="job decription: we are looking for an experienced waiter that is capable to work under pressure"
+        android:layout_margin="5dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCnameE"
+        android:textSize="25dp"
+        android:layout_margin="5dp"
+        android:layout_marginStart="1dp"
+        android:text="company name: AUST"/>
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

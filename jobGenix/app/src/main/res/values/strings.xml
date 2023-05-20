@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">jobGenix</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="Jtitle">
+        <item>Waiter</item>
+        <item>Chef</item>
+        <item>Cachier</item>
+        <item>Head Waiter</item>
+        <item>Trainee</item>
+
+    </string-array>
+    <string-array name="Eneeded">
+        <item>no experience</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+</resources>

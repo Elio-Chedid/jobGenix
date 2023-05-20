@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Rpart_time">
+
+    <TextView
+        android:id="@+id/genreq"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="76dp"
+        android:text=" Part Time Generate Request "
+
+        android:textAlignment="center"
+        android:textColor="#3cb9b3"
+        android:textSize="24sp"
+        />
+
+
+    <Spinner
+        android:id="@+id/jobtitlept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+
+        app:layout_constraintTop_toBottomOf="@+id/genreq"
+   />
+
+    <Spinner
+        android:id="@+id/Experience"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+
+        app:layout_constraintWidth_percent="0.6" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/day"
+        android:hint="Select Day"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/hours"
+        android:hint="Select hours"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:drawableEnd="@drawable/ic_baseline_arrow_drop_down_24"/>
+
+    <EditText
+        android:id="@+id/editEmpNeeded"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Employees Needed"
+        android:layout_marginTop="30dp"
+
+        android:inputType="number"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+     />
+
+    <EditText
+        android:id="@+id/etjobDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Job Description"
+        android:layout_marginTop="30dp"
+        android:padding="16dp"
+        android:layout_gravity="center"
+        android:textSize="18sp"
+      />
+
+    <Button
+        android:id="@+id/post"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="#3FD0A4"
+        android:clickable="true"
+        android:padding="20dp"
+        android:layout_marginTop="30dp"
+        android:text="post"
+        android:textSize="15dp"
+        app:cornerRadius="50dp" />
+
+</LinearLayout>
