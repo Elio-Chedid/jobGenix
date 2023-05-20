@@ -8,11 +8,11 @@ import re
 import phonenumbers
 import math
 app = Flask(__name__)
-app.config['SECRET_KEY'] = '59ghf45ngf0xtm5lv0hj5kf4lc4ep6r9'
+app.config['SECRET_KEY'] = 'SECRET KEY'
 app.config['MYSQL_HOST'] = '127.0.0.1'
 app.config['MYSQL_USER'] = 'root'
-app.config['MYSQL_PASSWORD'] = 'Server@dm1n'
-app.config['MYSQL_DB'] = 'flutterdb'
+app.config['MYSQL_PASSWORD'] = 'PASSWORD'
+app.config['MYSQL_DB'] = 'DATABASENAME'
 
 mysql = MySQL(app)
 def token_required(func):
